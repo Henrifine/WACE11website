@@ -1,0 +1,7 @@
+@import url(style.css);
+@import url(product.css);
+
+.productImg img{
+  width: 400px;
+  height: auto;
+}

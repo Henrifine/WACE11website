@@ -1,0 +1,65 @@
+@import url("style.css");
+
+#header{
+  background-color: #243142;
+}
+
+.product{
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.productgrid{
+  display: grid;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+}
+
+.productImg{
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.productImg img{
+  margin: 0 auto;
+  height: 300px;
+  width: auto;
+}
+
+.productLine{
+  border-left: 1px solid #bebebe;
+  display: block;
+  float: left;
+  height: 200px;
+  position: relative;
+  top: 160px;
+}
+
+.selection{
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chosen{
+  font-weight: bolder;
+}
+
+.selection a{
+  border-radius: 5px;
+  position:relative;
+  top: 0px;
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  float: left;
+  display: block;
+  text-decoration: none;
+  font-size: 25px;
+  padding: 10px 30px;
+  min-width: 100px;
+  text-align: center;
+}
